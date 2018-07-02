@@ -24,9 +24,12 @@ import com.phantomartist.sinquizcity.util.DialogBuilder;
 import com.phantomartist.sinquizcity.util.Strings;
 import com.phantomartist.sinquizcity.util.UserPreferences;
 
+/**
+ * Entry point to the game
+ */
 public class MainActivity extends Activity {
 	
-	private static MainActivity main;
+    private static MainActivity main;
 	
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,7 +64,9 @@ public class MainActivity extends Activity {
     
     /**
      * Called when "Memorize/I'm Back/Continue Game" is clicked.
-     * 
+     * Either continues an existing game or starts a fresh one
+     * and collects user information.
+     *
      * @param view The view that relates to the button. 
      */
     public void runGame(View view) {
