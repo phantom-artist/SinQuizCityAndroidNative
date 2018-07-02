@@ -30,70 +30,73 @@ import com.phantomartist.sinquizcity.util.DialogBuilder;
 import com.phantomartist.sinquizcity.util.Icon;
 import com.phantomartist.sinquizcity.util.UserPreferences;
 
+/**
+ * Represents the game View
+ */
 public class GameDisplay extends Activity {
     
-	@Override
-	protected void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_run_game);
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_run_game);
 
-		// Show the Up button in the action bar.
-		setupActionBar();
+        // Show the Up button in the action bar.
+        setupActionBar();
 
-		// Continue game, or new game?
-		boolean isInProgress = Game.isInProgress();
-		
-		if (isInProgress) {
-		    resumeGame();
-		} else {
-		    newGame();
-		}
-	}
+        // Continue game, or new game?
+        boolean isInProgress = Game.isInProgress();
+        
+        if (isInProgress) {
+            resumeGame();
+        } else {
+            newGame();
+        }
+    }
 
-	/**
-	 * Set up the {@link android.app.ActionBar}, if the API is available.
-	 */
-	@TargetApi(Build.VERSION_CODES.HONEYCOMB)
-	private void setupActionBar() {
-		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
-			getActionBar().setDisplayHomeAsUpEnabled(true);
-		}
-	}
+    /**
+     * Set up the {@link android.app.ActionBar}, if the API is available.
+     */
+    @TargetApi(Build.VERSION_CODES.HONEYCOMB)
+    private void setupActionBar() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
+            getActionBar().setDisplayHomeAsUpEnabled(true);
+        }
+    }
 
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.run_game, menu);
-		return true;
-	}
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.run_game, menu);
+        return true;
+    }
 
-	@Override
-	public boolean onOptionsItemSelected(MenuItem item) {
-		switch (item.getItemId()) {
-		case android.R.id.home:
-			// This ID represents the Home or Up button. In the case of this
-			// activity, the Up button is shown. Use NavUtils to allow users
-			// to navigate up one level in the application structure. For
-			// more details, see the Navigation pattern on Android Design:
-			//
-			// http://developer.android.com/design/patterns/navigation.html#up-vs-back
-			//
-			NavUtils.navigateUpFromSameTask(this);
-			return true;
-		}
-		return super.onOptionsItemSelected(item);
-	}
-	
-	/**
-	 * Resume an existing game.
-	 */
-	public void resumeGame() {
-	    
-	    try {
-    	    setupHeaderInfo();
-    	    
-    	    if (Game.getInstance().hasNext()) {
-    	        
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+        case android.R.id.home:
+            // This ID represents the Home or Up button. In the case of this
+            // activity, the Up button is shown. Use NavUtils to allow users
+            // to navigate up one level in the application structure. For
+            // more details, see the Navigation pattern on Android Design:
+            //
+            // http://developer.android.com/design/patterns/navigation.html#up-vs-back
+            //
+            NavUtils.navigateUpFromSameTask(this);
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }
+    
+    /**
+     * Resume an existing game.
+     */
+    public void resumeGame() {
+        
+        try {
+            setupHeaderInfo();
+            
+            if (Game.getInstance().hasNext()) {
+                
                 QuestionAndAnswers question = Game.getInstance().current();
                 AnswerHandler handler = 
                     new AnswerHandler(this, question, Game.getInstance().getRandomResponse(true), Game.getInstance().getRandomResponse(false));
@@ -104,7 +107,7 @@ public class GameDisplay extends Activity {
                 
                 endGame();
             }
-	    } catch (GeneralAppException e) {
+        } catch (GeneralAppException e) {
             Log.e("runGame()", "GeneralException - " + e);
             Dialog alert = DialogBuilder.generateMsg(this, R.string.system_oops, false);
             alert.show();
@@ -113,61 +116,61 @@ public class GameDisplay extends Activity {
             Dialog alert = DialogBuilder.generateMsg(this, R.string.system_oops, false);
             alert.show();
         }
-	}
-	
-	/**
-	 * Start a new game.
-	 */
-	public void newGame() {
-		
-		try {
-		    Game.newGame();
-		    
-		    setupHeaderInfo();
-		    
-			Dialog firstBar = DialogBuilder.generateNextBarMsg(this, Bars.getInstance().getFirstBar());
-			firstBar.show();
-			
-			displayNextQuestion();
-			
-		} catch (GeneralAppException e) {
-			Log.e("runGame()", "GeneralException - " + e);
-			Dialog alert = DialogBuilder.generateMsg(this, R.string.system_oops, false);
-			alert.show();
-		} catch (Exception e) {
-			Log.e("runGame()", "Exception - " + e);
-			Dialog alert = DialogBuilder.generateMsg(this, R.string.system_oops, false);
-			alert.show();
-		}
-	}
-	
-	/**
-	 * Perform the next activity in the game sequence 
-	 * (Either display next question or end game).
-	 */
-	public void displayNextQuestion() {
-		
-		if (Game.getInstance().hasNext()) {
-		
-			QuestionAndAnswers question = Game.getInstance().next();
-			AnswerHandler handler = 
-			    new AnswerHandler(this, question, Game.getInstance().getRandomResponse(true), Game.getInstance().getRandomResponse(false));
-	
-			display(question, handler);
-		
-		} else {
-			
-			endGame();
-		}
-	}
-	
-	/**
-	 * Update the game based on result of a correct/incorrect answer.
-	 * 
-	 * @param wasCorrectAnswer true if correct, false otherwise.
+    }
+    
+    /**
+     * Start a new game.
      */
-	public void updateDisplay(boolean wasCorrectAnswer) {
-	    if (wasCorrectAnswer) {
+    public void newGame() {
+        
+        try {
+            Game.newGame();
+            
+            setupHeaderInfo();
+            
+            Dialog firstBar = DialogBuilder.generateNextBarMsg(this, Bars.getInstance().getFirstBar());
+            firstBar.show();
+            
+            displayNextQuestion();
+            
+        } catch (GeneralAppException e) {
+            Log.e("runGame()", "GeneralException - " + e);
+            Dialog alert = DialogBuilder.generateMsg(this, R.string.system_oops, false);
+            alert.show();
+        } catch (Exception e) {
+            Log.e("runGame()", "Exception - " + e);
+            Dialog alert = DialogBuilder.generateMsg(this, R.string.system_oops, false);
+            alert.show();
+        }
+    }
+    
+    /**
+     * Perform the next activity in the game sequence 
+     * (Either display next question or end game).
+     */
+    public void displayNextQuestion() {
+        
+        if (Game.getInstance().hasNext()) {
+        
+            QuestionAndAnswers question = Game.getInstance().next();
+            AnswerHandler handler = 
+                new AnswerHandler(this, question, Game.getInstance().getRandomResponse(true), Game.getInstance().getRandomResponse(false));
+    
+            display(question, handler);
+        
+        } else {
+            
+            endGame();
+        }
+    }
+    
+    /**
+     * Update the game based on result of a correct/incorrect answer.
+     * 
+     * @param wasCorrectAnswer true if correct, false otherwise.
+     */
+    public void updateDisplay(boolean wasCorrectAnswer) {
+        if (wasCorrectAnswer) {
             updateXP();
         } else {
             updateDrinks();
@@ -181,8 +184,8 @@ public class GameDisplay extends Activity {
         
         // Set 'last answer' for next question
         UserPreferences.saveData(R.string.last_answer_key, String.valueOf(wasCorrectAnswer));
-	}
-	
+    }
+    
     /**
      * Update the bar, via pop-up, if the user has accumulated enough points. 
      */
@@ -233,7 +236,7 @@ public class GameDisplay extends Activity {
     public void resetRun() {
         UserPreferences.saveData(R.string.run_key, "0");
     }
-	
+    
     /**
      * Setup Game header info
      */
@@ -253,7 +256,7 @@ public class GameDisplay extends Activity {
         updateIcon();
     }
     
-	/**
+    /**
      * Update user fails (drinks) score store + screen.
      */
     private void updateDrinks() {
@@ -278,7 +281,7 @@ public class GameDisplay extends Activity {
         
         pointsLabel.setText(String.valueOf(points));
     }
-	
+    
     /**
      * Updates the user 'state' icon displayed on-screen.
      */
@@ -295,7 +298,7 @@ public class GameDisplay extends Activity {
             updateIcon();
         }
     }
-	
+    
     /**
      * Update icon.
      */
@@ -325,45 +328,45 @@ public class GameDisplay extends Activity {
         toast.show();
     }
     
-	/**
-	 * Display a question and process user response.
-	 * 
-	 * @param question The question
-	 */
-	private void display(QuestionAndAnswers question, AnswerHandler handler) {
-		
-		// Display question
-		TextView questionLabel = (TextView) findViewById(R.id.question);
-		questionLabel.setText(question.getQuestion());
-		
-		// Display answers
-		ArrayList<QuestionAndAnswers.Answer> answers = question.getAnswers();
-		Collections.shuffle(answers);
-		ListView answerList = (ListView) findViewById(R.id.answers);
-		ArrayAdapter<QuestionAndAnswers.Answer> adapter = 
-			new ArrayAdapter<QuestionAndAnswers.Answer>(
-					this, 
-					R.layout.answers_list_view, 
-					R.id.answers_list_view,
-					answers);
+    /**
+     * Display a question and process user response.
+     * 
+     * @param question The question
+     */
+    private void display(QuestionAndAnswers question, AnswerHandler handler) {
+        
+        // Display question
+        TextView questionLabel = (TextView) findViewById(R.id.question);
+        questionLabel.setText(question.getQuestion());
+        
+        // Display answers
+        ArrayList<QuestionAndAnswers.Answer> answers = question.getAnswers();
+        Collections.shuffle(answers);
+        ListView answerList = (ListView) findViewById(R.id.answers);
+        ArrayAdapter<QuestionAndAnswers.Answer> adapter = 
+            new ArrayAdapter<QuestionAndAnswers.Answer>(
+                    this, 
+                    R.layout.answers_list_view, 
+                    R.id.answers_list_view,
+                    answers);
 
-		answerList.setAdapter(adapter);
-		answerList.setOnItemClickListener(handler);
-	}
-	
-	/**
-	 * End the game.
-	 * Display relevant message to user depending on their ultimate progress through the 'crawl'.
-	 */
-	private void endGame() {
-		
-		String barName = UserPreferences.getStringData(R.string.bar_key, "");
-		
-		int endMessage = R.string.end_game_incomplete;
-		if (Bars.getInstance().isLastBar(barName)) {
-			endMessage = R.string.end_game_complete;
-		}
-		Dialog dialog = DialogBuilder.generateNewGame(this, R.string.game_over, endMessage, barName);
-		dialog.show();
-	}
+        answerList.setAdapter(adapter);
+        answerList.setOnItemClickListener(handler);
+    }
+    
+    /**
+     * End the game.
+     * Display relevant message to user depending on their ultimate progress through the 'crawl'.
+     */
+    private void endGame() {
+        
+        String barName = UserPreferences.getStringData(R.string.bar_key, "");
+        
+        int endMessage = R.string.end_game_incomplete;
+        if (Bars.getInstance().isLastBar(barName)) {
+            endMessage = R.string.end_game_complete;
+        }
+        Dialog dialog = DialogBuilder.generateNewGame(this, R.string.game_over, endMessage, barName);
+        dialog.show();
+    }
 }
