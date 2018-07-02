@@ -14,7 +14,7 @@ import com.phantomartist.sinquizcity.activities.GameDisplay;
 import com.phantomartist.sinquizcity.util.UserPreferences;
 
 /**
- * Handles user response.
+ * Handles user response to a Question.
  */
 public class AnswerHandler implements OnItemClickListener {
 
@@ -45,8 +45,7 @@ public class AnswerHandler implements OnItemClickListener {
         
         Log.d(getClass().getName(), "onItemClicked() - position=" + position);
         
-        QuestionAndAnswers.Answer answer = 
-            (QuestionAndAnswers.Answer)adapter.getItemAtPosition(position);
+        Answer answer = (Answer)adapter.getItemAtPosition(position);
         
         // Right or Wrong?
         if (question.isCorrectAnswer(answer)) {

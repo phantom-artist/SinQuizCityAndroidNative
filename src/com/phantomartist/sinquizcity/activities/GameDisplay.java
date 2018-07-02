@@ -3,6 +3,18 @@ package com.phantomartist.sinquizcity.activities;
 import java.util.ArrayList;
 import java.util.Collections;
 
+import com.phantomartist.sinquizcity.GeneralAppException;
+import com.phantomartist.sinquizcity.R;
+import com.phantomartist.sinquizcity.game.Answer;
+import com.phantomartist.sinquizcity.game.AnswerHandler;
+import com.phantomartist.sinquizcity.game.Bar;
+import com.phantomartist.sinquizcity.game.Game;
+import com.phantomartist.sinquizcity.game.QuestionAndAnswers;
+import com.phantomartist.sinquizcity.util.Bars;
+import com.phantomartist.sinquizcity.util.DialogBuilder;
+import com.phantomartist.sinquizcity.util.Icon;
+import com.phantomartist.sinquizcity.util.UserPreferences;
+
 import android.annotation.TargetApi;
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -18,17 +30,6 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import com.phantomartist.sinquizcity.GeneralAppException;
-import com.phantomartist.sinquizcity.R;
-import com.phantomartist.sinquizcity.game.AnswerHandler;
-import com.phantomartist.sinquizcity.game.Bar;
-import com.phantomartist.sinquizcity.game.Game;
-import com.phantomartist.sinquizcity.game.QuestionAndAnswers;
-import com.phantomartist.sinquizcity.util.Bars;
-import com.phantomartist.sinquizcity.util.DialogBuilder;
-import com.phantomartist.sinquizcity.util.Icon;
-import com.phantomartist.sinquizcity.util.UserPreferences;
 
 /**
  * Represents the game View
@@ -340,11 +341,11 @@ public class GameDisplay extends Activity {
         questionLabel.setText(question.getQuestion());
         
         // Display answers
-        ArrayList<QuestionAndAnswers.Answer> answers = question.getAnswers();
+        ArrayList<Answer> answers = question.getAnswers();
         Collections.shuffle(answers);
         ListView answerList = (ListView) findViewById(R.id.answers);
-        ArrayAdapter<QuestionAndAnswers.Answer> adapter = 
-            new ArrayAdapter<QuestionAndAnswers.Answer>(
+        ArrayAdapter<Answer> adapter = 
+            new ArrayAdapter<Answer>(
                     this, 
                     R.layout.answers_list_view, 
                     R.id.answers_list_view,

@@ -8,7 +8,7 @@ import com.phantomartist.sinquizcity.R;
 import com.phantomartist.sinquizcity.intent.Messages;
 
 /**
- * Save user preferences
+ * Save user preferences - uses Android SharedPreferences
  */
 public class UserPreferences {
 

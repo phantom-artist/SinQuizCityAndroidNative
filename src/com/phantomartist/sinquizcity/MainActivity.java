@@ -25,7 +25,13 @@ import com.phantomartist.sinquizcity.util.Strings;
 import com.phantomartist.sinquizcity.util.UserPreferences;
 
 /**
- * Entry point to the game
+ * Main entry point to the game.
+ * 
+ * This class handles initial user interaction to setup the game, record player's name and save preferences.
+ * The Intent from this activity class is to forward to the GameDisplay which takes over actually
+ * displaying the game logic and handling interaction with the user.
+ * 
+ * The game logic itself is modelled by the Game and AnswerHandler classes.
  */
 public class MainActivity extends Activity {
 	
@@ -87,24 +93,7 @@ public class MainActivity extends Activity {
             
             if (Strings.isValidString(userName)) {
                 
-                // Do we have a new user name?
-                if (isNewUser(userName)) {
-                    UserPreferences.resetUserPreferences();
-                }
-                
-                Spinner vegasVisits = (Spinner) findViewById(R.id.vegas_visits);
-                int numVisits = vegasVisits.getSelectedItemPosition();
-                
-                UserPreferences.saveData(R.string.user_name_key, userName);
-                UserPreferences.saveData(R.string.vegas_visits_key, String.valueOf(numVisits));
-                
-                Spannable greetingResponse = Strings.getFormattedGreetingResponse(numVisits, userName);
-                
-                TextView responseView = (TextView)findViewById(R.id.response_view);
-                responseView.setText(greetingResponse, BufferType.SPANNABLE);
-                
-                final Toast toast = Toast.makeText(this, R.string.loading_questions, Toast.LENGTH_SHORT);
-                toast.show();
+                handlePlayerInformation(userName);
                 
                 goToGame(true);
                 
@@ -194,7 +183,7 @@ public class MainActivity extends Activity {
     }
     
     /**
-     * Goes to the game screen (with optional pause).
+     * Goes to the actual game screen (with optional pause).
      */
     private void goToGame(boolean addPause) {
         
@@ -214,4 +203,31 @@ public class MainActivity extends Activity {
             startActivity(intent);
         }
     }
+    
+    /**
+     * Collect player information
+     * 
+     * @param userName the username
+     */
+    private void handlePlayerInformation(String userName) {
+		
+		// Do we have a new user name?
+		if (isNewUser(userName)) {
+		    UserPreferences.resetUserPreferences();
+		}
+		
+		Spinner vegasVisits = (Spinner) findViewById(R.id.vegas_visits);
+		int numVisits = vegasVisits.getSelectedItemPosition();
+		
+		UserPreferences.saveData(R.string.user_name_key, userName);
+		UserPreferences.saveData(R.string.vegas_visits_key, String.valueOf(numVisits));
+		
+		Spannable greetingResponse = Strings.getFormattedGreetingResponse(numVisits, userName);
+		
+		TextView responseView = (TextView)findViewById(R.id.response_view);
+		responseView.setText(greetingResponse, BufferType.SPANNABLE);
+		
+		final Toast toast = Toast.makeText(this, R.string.loading_questions, Toast.LENGTH_SHORT);
+		toast.show();
+	}
 }

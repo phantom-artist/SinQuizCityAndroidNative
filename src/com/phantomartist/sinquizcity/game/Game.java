@@ -14,7 +14,10 @@ import com.phantomartist.sinquizcity.util.Questions;
 import com.phantomartist.sinquizcity.util.UserPreferences;
 
 /**
- * Wrapper for SinQuizCity game.
+ * Wrapper for the SinQuizCity game logic.
+ * 
+ * Instantiates and iterates over a set of questions in a random order.
+ * Models interactions for correct and wrong answers.
  */
 public class Game implements Iterator<QuestionAndAnswers> {
 
@@ -34,7 +37,7 @@ public class Game implements Iterator<QuestionAndAnswers> {
      */
     public static Game getInstance() {
         if (game == null) {
-            game = new Game();
+            game = newGame();
         }
         return game;
     }
