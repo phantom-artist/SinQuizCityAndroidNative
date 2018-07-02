@@ -1,5 +1,8 @@
 package com.phantomartist.sinquizcity.game;
 
+/**
+ * Model for a bar
+ */
 public class Bar {
 
 	public static final String PROPERTY_TAG = "property";
@@ -51,6 +54,7 @@ public class Bar {
 		}
 		return getName().equals(barName);
 	}
+	
 	@Override
 	public String toString() {
 		return "Bar [property=" + property + ", name=" + name + ", info="
