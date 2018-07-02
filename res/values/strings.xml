@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Globals -->
+    <string name="ok">OK</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="user_oops">Nope! Clearly you\'re a dumbass.</string>
+    <string name="system_oops">Oops, had a slight malfunction, but we\'re all fine, here, now, thankyou&#8230;how are you?</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">Sin QuizCity</string>
+    <string name="app_title">Some people just can\'t handle Vegas&#8230;</string>
+    <string name="app_subtitle">&#8230;do you have what it takes to become a Sin City legend?</string>
+    <string name="app_get_started">Before we start, just a few details please:</string>
+	<string name="not_implemented">Not yet implemented!</string>
+	<string name="game_over">Game over! Play again?</string>
+	<string name="user_icon">User Icon</string>
+	<string name="end_game_incomplete">Nice try, you made it to %1$s</string>
+	<string name="end_game_complete">Incredible, you made it all the way to %1$s</string>
+	<string name="loading_questions">Loading Questions&#8230;</string>
+	
+    <!-- Preference keys -->
+    <string name="user_name_key">com.phantomartist.sinquizcity.USER_NAME</string>
+    <string name="vegas_visits_key">com.phantomartist.sinquizcity.VEGAS_VISITS</string>
+    <string name="points_key">com.phantomartist.sinquizcity.POINTS</string>
+    <string name="run_key">com.phantomartist.sinquizcity.RUN</string>
+    <string name="last_answer_key">com.phantomartist.sinquizcity.LAST_ANSWER</string>
+    <string name="drinks_key">com.phantomartist.sinquizcity.DRINKS</string>
+    <string name="bar_key">com.phantomartist.sinquizcity.BAR</string>
+	<string name="show_answers_key">com.phantomartist.sinquizcity.SHOW_ANSWERS</string>
+	<string name="icon_key">com.phantomartist.sinquizcity.ICON</string>
+
+    <!-- User Registration screen -->
+    <string name="user_prompt">Who are you?</string>
+    <string name="error_missing_username">Gotta tell me who you are!</string>
+    <string name="user_btn_new">Memorize</string>
+    <string name="user_btn_return">I\'m Back</string>
+    <string name="user_btn_continue">Continue Game</string>
+    <string name="vegas_visits_prompt">Previous visits to Vegas?</string>
+    <string name="total_points_prompt">You have accumulated %1$s total XP</string>
+
+    <string-array name="vegas_visits">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6+</item>
+    </string-array>
+    <string-array name="vegas_visits_response">
+        <item>Aha! Fresh meat! Welcome to Las Vegas %1$s, stay and have a drink&#8230;</item>
+        <item>Back for more, eh %1$s? Once is never enough&#8230;</item>
+        <item>Now we\'re talking %1$s, battle-hardened, but still game&#8230;</item>
+        <item>%1$s you may think you\'re a seasoned veteran but I\'m sure we can still teach you a few things&#8230;</item>
+        <item>%1$s? You again? Damn, deja-vu!</item>
+        <item>OK %1$s, do you live here or something?</item>
+        <item>Whoa, wait, is this \'the\' %1$s?</item>
+    </string-array>
+
+    <string name="show_answers">Reveal Correct Answers?</string>
+    
+    <string name="title_activity_greet_user">Game On?</string>
+    <string name="rules">Take a virtual bar-crawl by answering questions. Can you make it all the way to the end or will Vegas \'get-you\'? Remember, temptation is everywhere.</string>
+	<string name="start_bar">Correct answers gain Experience Points (XP) to move you along to the next bar, wrong answers mean a penalty drink and will hold you up&#8230;good luck!</string>
+	
+    <string name="go">GO!</string>
+    <string name="title_activity_run_game">Quiz</string>
+    
+    <!-- Run Game screen -->
+    <string name="game_hdr_label_1">You\'ve racked up</string>
+	<string name="game_hdr_label_2">XP and</string>
+	<string name="game_hdr_label_3">penalty drinks!</string>
+	
+	<string-array name="correct_responses">
+	    <item>Nice!</item>
+	    <item>Correctamundo!</item>
+	    <item>Right!</item>
+	    <item>Yup!</item>
+	    <item>Lucky guess!</item>
+	    <item>Yes!</item>
+	</string-array>
+	<string-array name="wrong_responses">
+	    <item>&lt;bzzt&gt; wrong!</item>
+	    <item>Nope!</item>
+	    <item>Fail!</item>
+	    <item>Dumbass!</item>
+	    <item>Doh!</item>
+	    <item>Seriously?</item>
+	</string-array>
+	
+	<string-array name="drinks">
+	    <item>Hard Lemonade</item>
+	    <item>Beer</item>
+	    <item>Cherry Bomb</item>
+	    <item>Jager Bomb</item>
+	    <item>Vodka Martini</item>
+	    <item>Gin &amp; Tonic</item>
+	    <item>Cuba Libre</item>
+	    <item>Whiskey Sour</item>
+	    <item>Burbon</item>
+	    <item>Tequila Sunrise</item>
+	    <item>Slammer</item>
+	    <item>Mojito</item>
+	</string-array>
+	
+	<string name="first_bar">The journey begins&#8230;</string>
+	<string name="next_bar_reached">You made it to the next bar&#8230;</string>
+
+</resources>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bars>
+    <bar>
+        <property>Stratosphere</property>
+        <name>Air Bar</name>
+        <info>Chilling on the 108th floor looking down the Strip. Mandalay Bay seems a loooong way away...</info>
+        <points>0</points>
+    </bar>
+
+    <bar>
+        <property>Circus Circus</property>
+        <name>Big Chill</name>
+        <info>Frozen drinks in the casino of chaos</info>
+        <points>5</points>
+    </bar>
+
+    <bar>
+        <property>Wynn</property>
+        <name>XS</name>
+        <info>Going upmarket for classy beverages</info>
+        <points>10</points>
+    </bar>
+
+    <bar>
+        <property>The Palazzo</property>
+        <name>The Bourbon Room</name>
+        <info>A whiskey, and a whiskey</info>
+        <points>15</points>
+    </bar>
+    
+    <bar>
+        <property>The Venetian</property>
+        <name>Rockhouse</name>
+        <info>Rocking out in Venice</info>
+        <points>20</points>
+    </bar>
+
+    <bar>
+        <property>Treasure Island</property>
+        <name>Breeze Bar</name>
+        <info>Here be pirates, arrrgh!</info>
+        <points>25</points>
+    </bar>
+
+    <bar>
+        <property>The Mirage</property>
+        <name>Rhumbar</name>
+        <info>Get your funk on!</info>
+        <points>30</points>
+    </bar>
+    
+	<bar>
+        <property>Hurrahs</property>
+        <name>Numb Bar</name>
+        <info>Pit-stop for more frozen cocktails</info>
+        <points>35</points>
+    </bar>
+
+	<bar>
+        <property>The Quad</property>
+        <name>Fat Tuesday</name>
+        <info>More frozen beverages, hey, it's hot today!</info>
+        <points>40</points>
+    </bar>
+    
+	<bar>
+        <property>Flamingo</property>
+        <name>5-o-clock Somewhere Bar</name>
+        <info>Ah, halfway there, time to chill-out with a margarita</info>
+        <points>45</points>
+    </bar>
+    
+	<bar>
+        <property>Caeser's Palace</property>
+        <name>Shadow Bar</name>
+        <info>Lurking in the shadows with some tasty cocktails</info>
+        <points>50</points>
+    </bar>
+    
+	<bar>
+        <property>Paris</property>
+        <name>Napoleon's Lounge</name>
+        <info>Salut!</info>
+        <points>55</points>
+    </bar>
+    
+	<bar>
+        <property>The Cosmopolitan</property>
+        <name>The Chandelier</name>
+        <info>Opulent surroundings call for opulent drinks!</info>
+        <points>60</points>
+    </bar>
+
+	<bar>
+        <property>Monte Carlo</property>
+        <name>Ignite The Night</name>
+        <info>Quick Pick-Me-Up</info>
+        <points>65</points>
+    </bar>
+
+	<bar>
+        <property>Planet Hollywood</property>
+        <name>Extra Lounge</name>
+        <info>Celebrity spotting?</info>
+        <points>70</points>
+    </bar>
+    
+	<bar>
+        <property>MGM Grand</property>
+        <name>Centrifuge</name>
+        <info>30 mins until the next dance?</info>
+        <points>75</points>
+    </bar>
+    
+	<bar>
+        <property>New York-New York</property>
+        <name>Nine Fine Irishmen</name>
+        <info>Good for 'the craic' and 'the creature'!</info>
+        <points>80</points>
+    </bar>
+    
+	<bar>
+        <property>Tropicana</property>
+        <name>Lounge Bar</name>
+        <info>If it's good enough for 007...</info>
+        <points>85</points>
+    </bar>
+    
+	<bar>
+        <property>Luxor</property>
+        <name>Aurora</name>
+        <info>Nearly there... quick 'Purple Haze' in the Pyramid?</info>
+        <points>90</points>
+    </bar>
+    
+	<bar>
+        <property>Mandalay Bay</property>
+        <name>Eyecandy Sound Lounge</name>
+        <info>Incredible! You made it. Time to celebrate!</info>
+        <points>95</points>
+    </bar>
+</bars>

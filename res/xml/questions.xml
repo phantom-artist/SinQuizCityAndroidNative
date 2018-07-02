@@ -1,0 +1,1145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questions>
+    
+    <question id="1">
+        <ask>What was the name of the first casino built on what is considered to be the current Las Vegas Strip?</ask>
+        <answer-map>
+            <answer id="1">El Cortez</answer>
+            <answer id="2">The Sands</answer>
+            <answer id="3">El Rancho Vegas</answer>
+            <answer id="4">Goldrush</answer>
+        </answer-map>
+        <correct id="3" />
+        <trivia>Opened Apr 3 1941</trivia>
+    </question>
+
+    <question id="2">
+        <ask>What does 'Las Vegas' mean?</ask>
+        <answer-map>
+            <answer id="1">The Meadows</answer>
+            <answer id="2">The Valley</answer>
+            <answer id="3">The Desert</answer>
+            <answer id="4">The Fields</answer>
+        </answer-map>
+        <correct id="1" />
+    </question>
+
+    <question id="3">
+        <ask>What was the first casino to be built in the Las Vegas area?</ask>
+        <answer-map>
+            <answer id="1">The Desert Inn</answer>
+            <answer id="2">Pair O' Dice Club</answer>
+            <answer id="3">El Rancho Vegas</answer>
+            <answer id="4">Golden Nugget</answer>
+        </answer-map>
+        <correct id="2" />
+        <trivia>Opened in 1931</trivia>
+    </question>
+    
+    <question id="4">
+        <ask>Name the oldest resort still operating on the current Las Vegas Strip?</ask>
+        <answer-map>
+            <answer id="1">Flamingo</answer>
+            <answer id="2">Harrahs</answer>
+            <answer id="3">Casino Royale</answer>
+            <answer id="4">Mirage</answer>
+        </answer-map>
+        <correct id="1" />
+        <trivia>Opened in 1946</trivia>
+    </question>
+    
+    <question id="5">
+        <ask>Who was the first European traveller to the Las Vegas Valley?</ask>
+        <answer-map>
+            <answer id="1">Miguel Candiaz</answer>
+            <answer id="2">Horatio Nelson</answer>
+            <answer id="3">Christopher Columbus</answer>
+            <answer id="4">Raphael Rivera</answer>
+        </answer-map>
+        <correct id="4" />
+        <trivia>Got there in 1829</trivia>
+    </question>
+    
+    <question id="6">
+        <ask>Which Nevada county is Las Vegas situated in?</ask>
+        <answer-map>
+            <answer id="1">Lincoln</answer>
+            <answer id="2">Clark</answer>
+            <answer id="3">Eureka</answer>
+            <answer id="4">Pershing</answer>
+        </answer-map>
+        <correct id="2" />
+    </question>
+    
+    <question id="7">
+        <ask>What religion were the native American's in the Las Vegas area converted to after a missionary expedition in 1855?</ask>
+        <answer-map>
+            <answer id="1">Scientology</answer>
+            <answer id="2">Pagan</answer>
+            <answer id="3">Catholic</answer>
+            <answer id="4">Mormon</answer>
+        </answer-map>
+        <correct id="4" />
+    </question>
+    
+    <question id="8">
+        <ask>Name the native American tribe that first inhabited the Las Vegas area?</ask>
+        <answer-map>
+            <answer id="1">Nez Perce</answer>
+            <answer id="2">Paiute</answer>
+            <answer id="3">Navajo</answer>
+            <answer id="4">Sioux</answer>
+        </answer-map>
+        <correct id="2" />
+    </question>
+    
+    <question id="9">
+        <ask>What date did Las Vegas first gain 'city' status?</ask>
+        <answer-map>
+            <answer id="1">01 Jan 1912</answer>
+            <answer id="2">04 May 1908</answer>
+            <answer id="3">16 Mar 1911</answer>
+            <answer id="4">22 Aug 1915</answer>
+        </answer-map>
+        <correct id="3" />
+    </question>
+    
+    <question id="10">
+        <ask>Major development took place in Las Vegas in the 1940's owing to what significant concurrent activity?</ask>
+        <answer-map>
+            <answer id="1">The Manhattan Project</answer>
+            <answer id="2">The Gold Rush</answer>
+            <answer id="3">Farming Growth</answer>
+            <answer id="4">Expansion of Pacific Trade Routes</answer>
+        </answer-map>
+        <correct id="1" />
+    </question>
+    
+    <question id="11">
+        <ask>Las Vegas is situated in a desert. Name that desert?</ask>
+        <answer-map>
+            <answer id="1">Gobi</answer>
+            <answer id="2">Mojave</answer>
+            <answer id="3">Sonoran</answer>
+            <answer id="4">Great Basin</answer>
+        </answer-map>
+        <correct id="2" />
+    </question>
+    
+    <question id="12">
+        <ask>As of Jan 1st 2013 what is the newest casino on the Strip?</ask>
+        <answer-map>
+            <answer id="1">Vdara</answer>
+            <answer id="2">The Quad</answer>
+            <answer id="3">The Cosmopolitan</answer>
+            <answer id="4">Aria</answer>
+        </answer-map>
+        <correct id="3" />
+        <trivia>Opened 15 Dec 2010</trivia>
+    </question>
+    
+    <question id="13">
+        <ask>What is the highest ever (official) recorded temperature in Las Vegas?</ask>
+        <answer-map>
+            <answer id="1">45C/115F</answer>
+            <answer id="2">51C/123.8F</answer>
+            <answer id="3">48C/118.4F</answer>
+            <answer id="4">47C/117F</answer>
+        </answer-map>
+        <correct id="4" />
+        <trivia>Hot enough to fry eggs on the sidewalk!</trivia>
+    </question>
+
+    <question id="14">
+        <ask> What is the Imperial Palace being re-branded as after rennovation work in 2013?</ask>
+        <answer-map>
+            <answer id="1">IP</answer>
+            <answer id="2">The Quad Resort and Casino</answer>
+            <answer id="3">Ming's Palace</answer>
+            <answer id="4">Linq</answer>
+        </answer-map>
+        <correct id="2" />
+    </question>
+
+    <question id="15">
+        <ask>O'Shea's Casino closed it's doors on 30th Apr 2012, it is slated to return as part of what new retail &amp; entertainment center due to open in 2013?</ask>
+        <answer-map>
+            <answer id="1">The Parade</answer>
+            <answer id="2">The Quad</answer>
+            <answer id="3">Linq</answer>
+            <answer id="4">Bill's Gambling Hall</answer>
+        </answer-map>
+        <correct id="3" />
+    </question>
+    
+    <question id="16">
+        <ask>Which resort &amp; casino sits between The Venetian and the Wynn?</ask>
+        <answer-map>
+            <answer id="1">Casino Royale</answer>
+            <answer id="2">Riviera</answer>
+            <answer id="3">TI</answer>
+            <answer id="4">The Palazzo</answer>
+        </answer-map>
+        <correct id="4" />
+    </question>
+
+    <question id="17">
+        <ask>Which development at the north end of the strip broke ground in 2007 and still remains unfinished (as of 01 Mar 2013) due to financial problems?</ask>
+        <answer-map>
+            <answer id="1">Resorts World Las Vegas</answer>
+            <answer id="2">Fontainebleau</answer>
+            <answer id="3">SLS</answer>
+            <answer id="4">The Harmon</answer>
+        </answer-map>
+        <correct id="2" />
+    </question>
+    
+    <question id="18">
+        <ask>What is the name of the second-to-last casino at the north-end of the Strip?</ask>
+        <answer-map>
+            <answer id="1">Stratosphere</answer>
+            <answer id="2">Circus Circus</answer>
+            <answer id="3">SLS Resort and Casino</answer>
+            <answer id="4">Riviera</answer>
+        </answer-map>
+        <correct id="3" />
+    </question>
+    
+    <question id="19">
+        <ask>Name the first and still operating (as of 01 Mar 2013) high-rise hotel/casino on the Strip?</ask>
+        <answer-map>
+            <answer id="1">Stratosphere</answer>
+            <answer id="2">Flamingo</answer>
+            <answer id="3">Planet Hollywood</answer>
+            <answer id="4">Riviera</answer>
+        </answer-map>
+        <correct id="4" />
+        <trivia>Opened April 20, 1955</trivia>
+    </question>
+    
+    <question id="20">
+        <ask>Which resort &amp; casino sits between Caesers Palace and TI?</ask>
+        <answer-map>
+            <answer id="1">Mirage</answer>
+            <answer id="2">Bellagio</answer>
+            <answer id="3">Flamingo</answer>
+            <answer id="4">Cosmopolitan</answer>
+        </answer-map>
+        <correct id="1" />
+    </question>
+    
+    <question id="21">
+        <ask>Name the only Strip casino north of Sahara Avenue?</ask>
+        <answer-map>
+            <answer id="1">Stratosphere</answer>
+            <answer id="2">Mandalay Bay</answer>
+            <answer id="3">Circus Circus</answer>
+            <answer id="4">Wynn</answer>
+        </answer-map>
+        <correct id="1" />
+    </question>
+    
+    <question id="22">
+        <ask>The author Hunter S. Thompson said this about which casino: "... is what the whole hep world would be doing Saturday night if the Nazis had won the war. This is the sixth Reich."</ask>
+        <answer-map>
+            <answer id="1">Tropicana</answer>
+            <answer id="2">Bellagio</answer>
+            <answer id="3">Circus Circus</answer>
+            <answer id="4">Flamingo</answer>
+        </answer-map>
+        <correct id="3" />
+    </question>
+    
+    <question id="23">
+        <ask>Which hotel and casino was demolished to make way for The Venetian?</ask>
+        <answer-map>
+            <answer id="1">Dunes</answer>
+            <answer id="2">Sands</answer>
+            <answer id="3">Aladdin</answer>
+            <answer id="4">Stardust</answer>
+        </answer-map>
+        <correct id="2" />
+    </question>
+    
+    <question id="24">
+        <ask>The Bellagio is built on the location of which famous former property?</ask>
+        <answer-map>
+            <answer id="1">Dunes</answer>
+            <answer id="2">Sands</answer>
+            <answer id="3">Aladdin</answer>
+            <answer id="4">Stardust</answer>
+        </answer-map>
+        <correct id="1" />
+    </question>
+    
+    <question id="25">
+        <ask>Planet Hollywood replaced which famous old casino?</ask>
+        <answer-map>
+            <answer id="1">Dunes</answer>
+            <answer id="2">Sands</answer>
+            <answer id="3">Aladdin</answer>
+            <answer id="4">Stardust</answer>
+        </answer-map>
+        <correct id="3" />
+    </question>  
+    
+    <question id="26">
+        <ask>What is the name of the bus service that runs up and down the Strip?</ask>
+        <answer-map>
+            <answer id="1">The Hopper</answer>
+            <answer id="2">Aces</answer>
+            <answer id="3">The Deuce</answer>
+            <answer id="4">The Shuttle</answer>
+        </answer-map>
+        <correct id="3" />
+    </question>  
+    
+    <question id="27">
+        <ask>Which now defunct Strip casino first featured topless show girls?</ask>
+        <answer-map>
+            <answer id="1">Dunes</answer>
+            <answer id="2">Aladdin</answer>
+            <answer id="3">Sands</answer>
+            <answer id="4">Stardust</answer>
+        </answer-map>
+        <correct id="1" />
+    </question>    
+
+    <question id="28">
+        <ask>What is the smoking cowboy on Fremont St affectionately known as?</ask>
+        <answer-map>
+            <answer id="1">Vegas Vic</answer>
+            <answer id="2">Vegas Vince</answer>
+            <answer id="3">Cowboy Dan</answer>
+            <answer id="4">The Marlborough Man</answer>
+        </answer-map>
+        <correct id="1" />
+    </question>
+
+    <question id="29">
+        <ask>What is the name of the resident band at the Nine Fine Irishmen bar in New York-New York?</ask>
+        <answer-map>
+            <answer id="1">Slaínté</answer>
+            <answer id="2">Paddy Go Round</answer>
+            <answer id="3">Sin É Rí-Ra</answer>
+            <answer id="4">Céilí</answer>
+        </answer-map>
+        <correct id="3" />
+    </question>
+    
+    <question id="30">
+        <ask>How many Boeing 747s could you fit in the atrium of the Luxor?</ask>
+        <answer-map>
+            <answer id="1">12</answer>
+            <answer id="2">5</answer>
+            <answer id="3">9</answer>
+            <answer id="4">8</answer>
+        </answer-map>
+        <correct id="3" />
+    </question>
+    
+    <question id="31">
+        <ask>The Eiffel Tower at Paris casino is built to what scale?</ask>
+        <answer-map>
+            <answer id="1">1/2</answer>
+            <answer id="2">1/4</answer>
+            <answer id="3">1/3</answer>
+            <answer id="4">5/8</answer>
+        </answer-map>
+        <correct id="1" />
+    </question>
+    
+    <question id="32">
+        <ask>Which casino first featured a sports book?</ask>
+        <answer-map>
+            <answer id="1">Stardust</answer>
+            <answer id="2">Dunes</answer>
+            <answer id="3">El Rancho</answer>
+            <answer id="4">Flamingo</answer>
+        </answer-map>
+        <correct id="1" />
+    </question>
+
+    <question id="33">
+        <ask>On average, what percentage of a casino's earnings do slot machines contribute?</ask>
+        <answer-map>
+            <answer id="1">60</answer>
+            <answer id="2">55</answer>
+            <answer id="3">65</answer>
+            <answer id="4">50</answer>
+        </answer-map>
+        <correct id="1" />
+    </question>
+
+    <question id="34">
+        <ask>Which Strip property has the most rooms?</ask>
+        <answer-map>
+            <answer id="1">MGM Grand</answer>
+            <answer id="2">Cosmopolitan</answer>
+            <answer id="3">Bellagio</answer>
+            <answer id="4">Caeser's Palace</answer>
+        </answer-map>
+        <correct id="1" />
+        <trivia>With 5,044 rooms</trivia>
+    </question>    
+
+    <question id="35">
+        <ask>What is the oldest casino still operating in Las Vegas?</ask>
+        <answer-map>
+            <answer id="1">4 Queens</answer>
+            <answer id="2">Golden Gate</answer>
+            <answer id="3">El Cortez</answer>
+            <answer id="4">Golden Nugget</answer>
+        </answer-map>
+        <correct id="2" />
+        <trivia>Opened in 1906 as the Hotel Nevada</trivia>
+    </question>
+    
+    <question id="36">
+        <ask>Which property boasts the largest floorspace in Las Vegas?</ask>
+        <answer-map>
+            <answer id="1">Caeser's Palace</answer>
+            <answer id="2">The Palazzo</answer>
+            <answer id="3">MGM Grand</answer>
+            <answer id="4">Planet Hollywood</answer>
+        </answer-map>
+        <correct id="2" />
+        <trivia>At 6,948,980 square feet (645,581 square metres) it's bigger than the Pentagon!</trivia>
+    </question>
+    
+    <question id="37">
+        <ask>Who is famous for having the longest and most successful gambling streak in history between 1992 and 1995, simply known as 'The Run'?</ask>
+        <answer-map>
+            <answer id="1">Archie Karas</answer>
+            <answer id="2">Nick Dandolas (Nick the Greek)</answer>
+            <answer id="3">Phil Hellmuth</answer>
+            <answer id="4">Jamie Gold</answer>
+        </answer-map>
+        <correct id="1" />
+        <trivia>He turned $50 into over $40,000,000!</trivia>
+    </question>
+
+    <question id="38">
+        <ask>Which World Series of Poker event had the highest ever prize pool of $82,512,162?</ask>
+        <answer-map>
+            <answer id="1">2008</answer>
+            <answer id="2">2006</answer>
+            <answer id="3">2011</answer>
+            <answer id="4">2010</answer>
+        </answer-map>
+        <correct id="2" />
+        <trivia>Won by Jamie Gold who walked away with $12,000,000</trivia>
+    </question>
+
+    <question id="39">
+        <ask>Who revolutionized the World Series of Poker in 2003 by becoming the first competitor to qualify via an online Poker site?</ask>
+        <answer-map>
+            <answer id="1">Bobby Baldwin</answer>
+            <answer id="2">Amarillo 'Slim' Preston</answer>
+            <answer id="3">Chris Moneymaker</answer>
+            <answer id="4">Jamie Gold</answer>
+        </answer-map>
+        <correct id="3" />
+        <trivia>The press called it 'The Moneymaker Effect'</trivia>
+    </question>
+    
+    <question id="40">
+        <ask>Which of these celebrities did NOT compete in the 2006 World Series of Poker?</ask>
+        <answer-map>
+            <answer id="1">Jimmy White</answer>
+            <answer id="2">Mekhi Phifer</answer>
+            <answer id="3">Johnny Knoxville</answer>
+            <answer id="4">Lennox Lewis</answer>
+        </answer-map>
+        <correct id="3" />
+    </question>
+    
+    <question id="41">
+        <ask>What is the name of the fundamental bet on a craps table that most players will wager if they want to be a 'shooter'?</ask>
+        <answer-map>
+            <answer id="1">Come</answer>
+            <answer id="2">Field Bet</answer>
+            <answer id="3">Pass Line</answer>
+            <answer id="4">Big 8</answer>
+        </answer-map>
+        <correct id="3" />
+        <trivia>The 'shooter' may also wager a Don't Pass bet if they want to bet 'with-the-house'. This is often considered unpopular with other players.</trivia>
+    </question>
+    
+    <question id="42">
+        <ask>Which of these is NOT a 'sister' city to Las Vegas?</ask>
+        <answer-map>
+            <answer id="1">Phuket - Thailand</answer>
+            <answer id="2">Angeles City - Philippeans</answer>
+            <answer id="3">Jeju City - South Korea</answer>
+            <answer id="4">Athens - Greece</answer>
+        </answer-map>
+        <correct id="4" />
+        <trivia>Athens is a sister city to Los Angeles</trivia>
+    </question>
+    
+    <question id="43">
+        <ask>Which casino features the 'Sirens' show?</ask>
+        <answer-map>
+            <answer id="1">TI (Treasure Island)</answer>
+            <answer id="2">Excalibur</answer>
+            <answer id="3">Mirage</answer>
+            <answer id="4">Circus Circus</answer>
+        </answer-map>
+        <correct id="1" />
+        <trivia>It replaced the casino's Buccaneer Bay show in 2003</trivia>
+    </question>
+    
+    <question id="44">
+        <ask>Which casino features a working volcano?</ask>
+        <answer-map>
+            <answer id="1">TI (Treasure Island)</answer>
+            <answer id="2">Excalibur</answer>
+            <answer id="3">Mirage</answer>
+            <answer id="4">Circus Circus</answer>
+        </answer-map>
+        <correct id="3" />
+        <trivia>It erupts nightly from 8pm</trivia>
+    </question>
+    
+    <question id="45">
+        <ask>Which of these Vegas properties has Steve Wynn NOT had an influence in developing?</ask>
+        <answer-map>
+            <answer id="1">TI (Treasure Island)</answer>
+            <answer id="2">Bellagio</answer>
+            <answer id="3">Mirage</answer>
+            <answer id="4">Caeser's Palace</answer>
+        </answer-map>
+        <correct id="4" />
+        <trivia>Work started on Caeser's Palace in 1962 by Jay Sarno, it is now owned by Caesers Entertainment corporation</trivia>
+    </question>
+    
+    <question id="46">
+        <ask>Which of these Vegas properties is NOT serviced by the Monorail?</ask>
+        <answer-map>
+            <answer id="1">IP/Harrahs</answer>
+            <answer id="2">Flamingo/Caesars Palace</answer>
+            <answer id="3">MGM Grand</answer>
+            <answer id="4">Planet Hollywood</answer>
+        </answer-map>
+        <correct id="4" />
+    </question>
+    
+    <question id="47">
+        <ask>Which of the following properties was the first to open?</ask>
+        <answer-map>
+            <answer id="1">Caesers Palace</answer>
+            <answer id="2">Circus Circus</answer>
+            <answer id="3">Casino Royale</answer>
+            <answer id="4">The Mirage</answer>
+        </answer-map>
+        <correct id="1" />
+        <trivia>Opened Aug 05, 1966</trivia>
+    </question>
+    
+    <question id="48">
+        <ask>What is the name of Las Vegas' International airport?</ask>
+        <answer-map>
+            <answer id="1">McClaren</answer>
+            <answer id="2">McCarren</answer>
+            <answer id="3">Clark</answer>
+            <answer id="4">McClark</answer>
+        </answer-map>
+        <correct id="2" />
+    </question>
+
+    <question id="49">
+        <ask>Which infamous gangster got involved in developing Las Vegas casinos in the 1940s?</ask>
+        <answer-map>
+            <answer id="1">'Bugsy' Siegal</answer>
+            <answer id="2">Al Capone</answer>
+            <answer id="3">'Lucky' Luciano</answer>
+            <answer id="4">'Big Greenie' Greenberg</answer>
+        </answer-map>
+        <correct id="1" />
+    </question>
+    
+    <question id="50">
+        <ask>Which of these is NOT a well-known alias for Las Vegas?</ask>
+        <answer-map>
+            <answer id="1">Sin City</answer>
+            <answer id="2">The Entertainment Capital of the World</answer>
+            <answer id="3">The Marriage Capital of the World</answer>
+            <answer id="4">The Luckiest Place on Earth</answer>
+        </answer-map>
+        <correct id="4" />
+        <trivia>You make your own luck in Vegas!</trivia>
+    </question>
+    
+    <question id="51">
+        <ask>In which casino would you find Centrifuge bar?</ask>
+        <answer-map>
+            <answer id="1">Planet Hollywood</answer>
+            <answer id="2">Bellagio</answer>
+            <answer id="3">New York-New York</answer>
+            <answer id="4">MGM Grand</answer>
+        </answer-map>
+        <correct id="4" />
+        <trivia>Bartop dances every 30 mins!</trivia>
+    </question>
+    
+    <question id="52">
+        <ask>In which casino would you find The Pleasure Pit?</ask>
+        <answer-map>
+            <answer id="1">Planet Hollywood</answer>
+            <answer id="2">Bellagio</answer>
+            <answer id="3">New York-New York</answer>
+            <answer id="4">MGM Grand</answer>
+        </answer-map>
+        <correct id="1" />
+        <trivia>Very distracting when you're at the tables!</trivia>
+    </question>
+
+    <question id="53">
+        <ask>At which casino would you find dancing fountains?</ask>
+        <answer-map>
+            <answer id="1">Planet Hollywood</answer>
+            <answer id="2">Bellagio</answer>
+            <answer id="3">Paris</answer>
+            <answer id="4">Mandalay Bay</answer>
+        </answer-map>
+        <correct id="2" />
+        <trivia>The Extreme shooters fire water 460ft (140m) into the air</trivia>
+    </question>
+    
+    <question id="54">
+        <ask>Which casino featured in the ending scenes of the 2001 remake of the film Ocean's 11?</ask>
+        <answer-map>
+            <answer id="1">Planet Hollywood</answer>
+            <answer id="2">Bellagio</answer>
+            <answer id="3">Caeser's Palace</answer>
+            <answer id="4">Mandalay Bay</answer>
+        </answer-map>
+        <correct id="2" />
+        <trivia>To the track 'Clair de Lune' by Claude Debussy</trivia>
+    </question>
+
+    <question id="55">
+        <ask>Which hotel did the 'wolfpack' check into in the 2009 film 'The Hangover'?</ask>
+        <answer-map>
+            <answer id="1">Planet Hollywood</answer>
+            <answer id="2">Bellagio</answer>
+            <answer id="3">Caeser's Palace</answer>
+            <answer id="4">Mandalay Bay</answer>
+        </answer-map>
+        <correct id="3" />
+        <trivia>'Is this hotel pager friendly?'</trivia>
+    </question>
+    
+    <question id="56">
+        <ask>Which ficticious hotel/casino featured in the 2007 film 'Ocean's Thirteen'?</ask>
+        <answer-map>
+            <answer id="1">The Safe</answer>
+            <answer id="2">The Palace</answer>
+            <answer id="3">The Bank</answer>
+            <answer id="4">The Vault</answer>
+        </answer-map>
+        <correct id="3" />
+        <trivia>Run by the character Willy Bank, who was played by Al Pacino</trivia>
+    </question>
+    
+    <question id="57">
+        <ask>Which casino did Dustin Hoffman 'take down' by counting cards in the film Rain Man?</ask>
+        <answer-map>
+            <answer id="1">The Mirage</answer>
+            <answer id="2">The Flamingo</answer>
+            <answer id="3">Caeser's Palace</answer>
+            <answer id="4">The Bellagio</answer>
+        </answer-map>
+        <correct id="3" />
+    </question>
+    
+    <question id="58">
+        <ask>In which hotel did the legendary Frank Sinatra make his Las Vegas debut?</ask>
+        <answer-map>
+            <answer id="1">The Dunes</answer>
+            <answer id="2">The Sands</answer>
+            <answer id="3">Stardust</answer>
+            <answer id="4">The Desert Inn</answer>
+        </answer-map>
+        <correct id="4" />
+        <trivia>In Sept 1951</trivia>
+    </question>    
+    
+    <question id="59">
+        <ask>In which Las Vegas hotel did Elvis Presley make his poorly received 2-week debut residency in 1956?</ask>
+        <answer-map>
+            <answer id="1">New Frontier Hotel and Casino</answer>
+            <answer id="2">Castaways</answer>
+            <answer id="3">Boardwalk</answer>
+            <answer id="4">Hacienda</answer>
+        </answer-map>
+        <correct id="1" />
+        <trivia>The hotel guests described his performances as 'like a jug of corn liquor at a champagne party'</trivia>
+    </question>
+ 
+    <question id="60">
+        <ask>Which ficticious hotel property featured in the James Bond film 'Diamonds Are Forever'?</ask>
+        <answer-map>
+            <answer id="1">The Whyte House</answer>
+            <answer id="2">The Blue Lagoon</answer>
+            <answer id="3">The Frontier</answer>
+            <answer id="4">The Lakes</answer>
+        </answer-map>
+        <correct id="1" />
+        <trivia>Run by 'Willard Whyte' who was kidnapped by the criminal mastermind, Blofeld</trivia>
+    </question>
+    
+    <question id="61">
+        <ask>Which US military airforce base is situated in the NE corner of Las Vegas?</ask>
+        <answer-map>
+            <answer id="1">Nellis</answer>
+            <answer id="2">Creech</answer>
+            <answer id="3">Andrews</answer>
+            <answer id="4">Edwards</answer>
+        </answer-map>
+        <correct id="1" />
+    </question>
+    
+    <question id="62">
+        <ask>In the James Bond film 'Diamonds Are Forever', which hotel does Bond check into claiming 'it looks quite comfortable'?</ask>
+        <answer-map>
+            <answer id="1">The Aladdin</answer>
+            <answer id="2">Tropicana</answer>
+            <answer id="3">Klondike</answer>
+            <answer id="4">The Flamingo</answer>
+        </answer-map>
+        <correct id="2" />
+    </question>
+    
+    <question id="63">
+        <ask>Which property is located between Mandalay Bay and Excalibur?</ask>
+        <answer-map>
+            <answer id="1">Tropicana</answer>
+            <answer id="2">Luxor</answer>
+            <answer id="3">New York-New York</answer>
+            <answer id="4">MGM Grand</answer>
+        </answer-map>
+        <correct id="2" />
+    </question>
+
+    <question id="64">
+        <ask>Which property is located between Planet Hollywood and Ballys?</ask>
+        <answer-map>
+            <answer id="1">Flamingo</answer>
+            <answer id="2">Paris</answer>
+            <answer id="3">Mirage</answer>
+            <answer id="4">Bellagio</answer>
+        </answer-map>
+        <correct id="2" />
+    </question>
+    
+    <question id="65">
+        <ask>Which casino is located between Harrahs and The Venetian?</ask>
+        <answer-map>
+            <answer id="1">Flamingo</answer>
+            <answer id="2">Casino Royale</answer>
+            <answer id="3">Caesar's Palace</answer>
+            <answer id="4">The Palazzo</answer>
+        </answer-map>
+        <correct id="2" />
+    </question>
+    
+    <question id="66">
+        <ask>Which casino features a bar called 'The Chandelier'?</ask>
+        <answer-map>
+            <answer id="1">Aria</answer>
+            <answer id="2">Mandalay Bay</answer>
+            <answer id="3">Caesar's Palace</answer>
+            <answer id="4">The Cosmopolitan</answer>
+        </answer-map>
+        <correct id="4" />
+    </question>
+    
+    <question id="67">
+        <ask>Which property features the nightclub 'LAX'?</ask>
+        <answer-map>
+            <answer id="1">Luxor</answer>
+            <answer id="2">Planet Hollywood</answer>
+            <answer id="3">Caesar's Palace</answer>
+            <answer id="4">The Cosmopolitan</answer>
+        </answer-map>
+        <correct id="1" />
+    </question>
+    
+    <question id="68">
+        <ask>Which property has a Jimmy Buffett's Margaritaville attached?</ask>
+        <answer-map>
+            <answer id="1">Linq</answer>
+            <answer id="2">Planet Hollywood</answer>
+            <answer id="3">Caesar's Palace</answer>
+            <answer id="4">Flamingo</answer>
+        </answer-map>
+        <correct id="4" />
+    </question>
+    
+    <question id="69">
+        <ask>To which property are the Polo Towers attached?</ask>
+        <answer-map>
+            <answer id="1">Bellagio</answer>
+            <answer id="2">Planet Hollywood</answer>
+            <answer id="3">Caesar's Palace</answer>
+            <answer id="4">Paris</answer>
+        </answer-map>
+        <correct id="2" />
+    </question>
+    
+    <question id="70">
+        <ask>To which property is 'The Jockey Club' accomodation attached?</ask>
+        <answer-map>
+            <answer id="1">Bellagio</answer>
+            <answer id="2">Planet Hollywood</answer>
+            <answer id="3">Caesar's Palace</answer>
+            <answer id="4">Mirage</answer>
+        </answer-map>
+        <correct id="1" />
+    </question>
+    
+    <question id="71">
+        <ask>Which of these is NOT considered part of the new CityCenter development?</ask>
+        <answer-map>
+            <answer id="1">Aria</answer>
+            <answer id="2">Mandarin Oriental</answer>
+            <answer id="3">Vdara</answer>
+            <answer id="4">The Cosmopolitan</answer>
+        </answer-map>
+        <correct id="4" />
+    </question>
+    
+    <question id="72">
+        <ask>Which of these recent Strip developments was 'cut short' and, pending litigation, is now scheduled for demolition?</ask>
+        <answer-map>
+            <answer id="1">The Crystals</answer>
+            <answer id="2">Veer Towers</answer>
+            <answer id="3">The Harmon</answer>
+            <answer id="4">The Cosmopolitan</answer>
+        </answer-map>
+        <correct id="3" />
+        <trivia>Originally designed as a 49 floor boutique hotel, reduced to 25 floors after defects were found during constructions.</trivia>
+    </question>
+    
+    <question id="73">
+        <ask>Which of the following bets in craps usually pays the best odds?</ask>
+        <answer-map>
+            <answer id="1">Hi/Lo</answer>
+            <answer id="2">Field</answer>
+            <answer id="3">Yo</answer>
+            <answer id="4">Aces</answer>
+        </answer-map>
+        <correct id="4" />
+        <trivia>Aces (two 1's) usually pays 30:1. Hi/Lo and Yo pay 15:1. Field pays a maximum of 3:1</trivia>
+    </question>
+    
+    <question id="74">
+        <ask>Which of these is NOT a real bet in craps?</ask>
+        <answer-map>
+            <answer id="1">Stick</answer>
+            <answer id="2">Field</answer>
+            <answer id="3">Come</answer>
+            <answer id="4">Fire</answer>
+        </answer-map>
+        <correct id="1" />
+    </question>
+    
+    <question id="75">
+        <ask>Which property features a lion in it's logo and (until Feb 2012) a live lion attraction?</ask>
+        <answer-map>
+            <answer id="1">Caesar's Palace</answer>
+            <answer id="2">Tropicana</answer>
+            <answer id="3">Mandalay Bay</answer>
+            <answer id="4">MGM Grand</answer>
+        </answer-map>
+        <correct id="4" />
+        <trivia>The lions were owned by exotic animal trainer Keith Evans</trivia>
+    </question>
+    
+    <question id="76">
+        <ask>Which property features an outlet of Dick's Last Resort?</ask>
+        <answer-map>
+            <answer id="1">Monte Carlo</answer>
+            <answer id="2">Tropicana</answer>
+            <answer id="3">Excalibur</answer>
+            <answer id="4">New York-New York</answer>
+        </answer-map>
+        <correct id="3" />
+        <trivia>Famous for obnoxious waiting staff!</trivia>
+    </question>
+    
+    <question id="77">
+        <ask>Which property is home to an Ice Bar?</ask>
+        <answer-map>
+            <answer id="1">Monte Carlo</answer>
+            <answer id="2">Tropicana</answer>
+            <answer id="3">Excalibur</answer>
+            <answer id="4">New York-New York</answer>
+        </answer-map>
+        <correct id="1" />
+    </question>
+
+    <question id="78">
+        <ask>Which casino features a rollercoaster that goes inside and outside the property?</ask>
+        <answer-map>
+            <answer id="1">New York-New York</answer>
+            <answer id="2">Stratosphere</answer>
+            <answer id="3">Planet Hollywood</answer>
+            <answer id="4">MGM Grand</answer>
+        </answer-map>
+        <correct id="1" />
+    </question>
+
+    <question id="79">
+        <ask>Which show is a permanent feature of the Monte Carlo resort?</ask>
+        <answer-map>
+            <answer id="1">Blue Man Group</answer>
+            <answer id="2">Cirque de Soleil - 'O'</answer>
+            <answer id="3">Thunder From Down Under</answer>
+            <answer id="4">Siegfried and Roy</answer>
+        </answer-map>
+        <correct id="1" />
+    </question>
+    
+    <question id="80">
+        <ask>Which property is home to the Coyote Ugly bar?</ask>
+        <answer-map>
+            <answer id="1">Monte Carlo</answer>
+            <answer id="2">New York-New York</answer>
+            <answer id="3">MGM Grand</answer>
+            <answer id="4">Planet Hollywood</answer>
+        </answer-map>
+        <correct id="2" />
+    </question>
+    
+    <question id="81">
+        <ask>Which resort features Elton John's 'Red Piano' show?</ask>
+        <answer-map>
+            <answer id="1">Bellagio</answer>
+            <answer id="2">Caesar's Palace</answer>
+            <answer id="3">MGM Grand</answer>
+            <answer id="4">Flamingo</answer>
+        </answer-map>
+        <correct id="2" />
+        <trivia>He plays 50 times a year when Bette Midler is not performing there</trivia>
+    </question>
+    
+    <question id="82">
+        <ask>Which casino payed a $1m settlement to the Nevada Gaming Board in 2004 after they were caught rigging a draw for a Mercades Benz car?</ask>
+        <answer-map>
+            <answer id="1">Bellagio</answer>
+            <answer id="2">Caesar's Palace</answer>
+            <answer id="3">The Palazzo</answer>
+            <answer id="4">Venetian</answer>
+        </answer-map>
+        <correct id="4" />
+        <trivia>It was rigged for a high-roller who had just lost a fortune there</trivia>
+    </question>
+    
+    <question id="83">
+        <ask>Which property features the TAO nightclub?</ask>
+        <answer-map>
+            <answer id="1">Bellagio</answer>
+            <answer id="2">Planet Hollywood</answer>
+            <answer id="3">Mirage</answer>
+            <answer id="4">Venetian</answer>
+        </answer-map>
+        <correct id="4" />
+    </question>
+    
+    <question id="84">
+        <ask>Which property features the XS nightclub?</ask>
+        <answer-map>
+            <answer id="1">Bellagio</answer>
+            <answer id="2">Wynn</answer>
+            <answer id="3">The Cosmopolitan</answer>
+            <answer id="4">The Palazzo</answer>
+        </answer-map>
+        <correct id="2" />
+        <trivia>One of the most extravagent clubs on the Strip featuring a $10,000 cocktail</trivia>
+    </question>
+    
+    <question id="85">
+        <ask>Which of these properties does NOT feature a casino?</ask>
+        <answer-map>
+            <answer id="1">Encore</answer>
+            <answer id="2">Wynn</answer>
+            <answer id="3">Aria</answer>
+            <answer id="4">Vdara</answer>
+        </answer-map>
+        <correct id="4" />
+        <trivia>It does however feature a phenomenon called the 'death ray' caused by parabolic reflection of the sun on the pool deck!</trivia>
+    </question>
+    
+    <question id="86">
+        <ask>Which casino famously tried to ban a transgendered guest called Stephanie after finding her in the female bathroom?</ask>
+        <answer-map>
+            <answer id="1">Aria</answer>
+            <answer id="2">The Cosmopolitan</answer>
+            <answer id="3">Wynn</answer>
+            <answer id="4">The Venetian</answer>
+        </answer-map>
+        <correct id="2" />
+        <trivia>The incident occurred on April 27, 2011 - an outcry on Facebook prompted a quick apology and staff training on LGBT awareness</trivia>
+    </question>
+    
+    <question id="87">
+        <ask>Which resort plays host to 'Rehab' the original Vegas pool party?</ask>
+        <answer-map>
+            <answer id="1">Flamingo</answer>
+            <answer id="2">The Hard Rock</answer>
+            <answer id="3">The Palms</answer>
+            <answer id="4">The Red Rock</answer>
+        </answer-map>
+        <correct id="2" />
+    </question>
+    
+    <question id="88">
+        <ask>Which property features the 'Ghostbar'?</ask>
+        <answer-map>
+            <answer id="1">Flamingo</answer>
+            <answer id="2">The Hard Rock</answer>
+            <answer id="3">The Palms</answer>
+            <answer id="4">The Red Rock</answer>
+        </answer-map>
+        <correct id="3" />
+    </question>
+    
+    <question id="89">
+        <ask>Many casino ideas have been put forward over the years. Which of these themes was never a real proposal?</ask>
+        <answer-map>
+            <answer id="1">Country Music</answer>
+            <answer id="2">Harley Davidson</answer>
+            <answer id="3">World Wrestling Federation</answer>
+            <answer id="4">NFL</answer>
+        </answer-map>
+        <correct id="4" />
+        <trivia>The Harley Davidson theme proposed hotel towers shaped like exhaust pipes!</trivia>
+    </question>
+    
+    <question id="90">
+        <ask>What was the working name of the Mandalay Bay until it opened in 1999?</ask>
+        <answer-map>
+            <answer id="1">Project Paradise</answer>
+            <answer id="2">Project Harmony</answer>
+            <answer id="3">Project Perfection</answer>
+            <answer id="4">Project Majesty</answer>
+        </answer-map>
+        <correct id="1" />
+    </question>
+    
+    <question id="91">
+        <ask>Which hotel did Howard Hughes buy in 1968 after being asked to leave by the management?</ask>
+        <answer-map>
+            <answer id="1">The Sands</answer>
+            <answer id="2">The Desert Inn</answer>
+            <answer id="3">The Dunes</answer>
+            <answer id="4">The Flamingo</answer>
+        </answer-map>
+        <correct id="2" />
+    </question>
+    
+    <question id="92">
+        <ask>Who made the famous 'Welcome To Las Vegas' sign?</ask>
+        <answer-map>
+            <answer id="1">Betty Ford</answer>
+            <answer id="2">Betty Willis</answer>
+            <answer id="3">Betty Davis</answer>
+            <answer id="4">Betty Boop</answer>
+        </answer-map>
+        <correct id="2" />
+    </question>
+    
+    <question id="93">
+        <ask>What year was gambling outlawed in Las Vegas?</ask>
+        <answer-map>
+            <answer id="1">1909</answer>
+            <answer id="2">1910</answer>
+            <answer id="3">1914</answer>
+            <answer id="4">1918</answer>
+        </answer-map>
+        <correct id="2" />
+        <trivia>The gaming bill was re-instated in 1931, phew!</trivia>
+    </question>
+    
+    <question id="94">
+        <ask>How long is the Las Vegas Strip (from Stratosphere to Mandalay Bay)?</ask>
+        <answer-map>
+            <answer id="1">6 miles</answer>
+            <answer id="2">3 miles</answer>
+            <answer id="3">4 miles</answer>
+            <answer id="4">5 miles</answer>
+        </answer-map>
+        <correct id="3" />
+    </question>
+    
+    <question id="95">
+        <ask>On average, how many days of sunshine per year does Las Vegas get?</ask>
+        <answer-map>
+            <answer id="1">310</answer>
+            <answer id="2">260</answer>
+            <answer id="3">280</answer>
+            <answer id="4">340</answer>
+        </answer-map>
+        <correct id="1" />
+    </question>
+    
+    <question id="96">
+        <ask>What is the actual road name of the Strip?</ask>
+        <answer-map>
+            <answer id="1">Fremont Street</answer>
+            <answer id="2">Las Vegas Blvd</answer>
+            <answer id="3">Harmon Avenue</answer>
+            <answer id="4">Sahara Avenue</answer>
+        </answer-map>
+        <correct id="2" />
+    </question>
+    
+    <question id="97">
+        <ask>What is the actual text on the famous diamond-shaped neon sign that sits just south of 'The Strip'?</ask>
+        <answer-map>
+            <answer id="1">Welcome to Las Vegas</answer>
+            <answer id="2">Welcome to Fabulous Las Vegas</answer>
+            <answer id="3">Welcome to Fabulous Las Vegas Nevada</answer>
+            <answer id="4">Welcome to Sin City</answer>
+        </answer-map>
+        <correct id="3" />
+    </question>
+    
+    <question id="98">
+        <ask>What does it mean to be 'comp'd' by a casino?</ask>
+        <answer-map>
+            <answer id="1">Given Complimentary Lodgings</answer>
+            <answer id="2">Thrown Out</answer>
+            <answer id="3">Win The Jackpot</answer>
+            <answer id="4">Loose All Your Money</answer>
+        </answer-map>
+        <correct id="1" />
+    </question>
+    
+    <question id="99">
+        <ask>Which of these films did NOT feature at least 1 scene shot in Las Vegas?</ask>
+        <answer-map>
+            <answer id="1">Rocky Balboa</answer>
+            <answer id="2">Con Air</answer>
+            <answer id="3">Lethal Weapon 4</answer>
+            <answer id="4">The Flintstones Viva Rock Vegas</answer>
+        </answer-map>
+        <correct id="4" />
+        <trivia>Leathal Weapon 4 had 1 scene filmed on the (then un-opened) I-215. Flintstones was mainly filmed in California</trivia>
+    </question>
+    
+    <question id="100">
+        <ask>Who uttered the immortal words 'I hate to say this, but this place is getting to me. I think I'm getting the Fear.'?</ask>
+        <answer-map>
+            <answer id="1">Dr Gonzo (Fear &amp; Loathing)</answer>
+            <answer id="2">Stu (The Hangover)</answer>
+            <answer id="3">Cameron Poe (Con Air)</answer>
+            <answer id="4">Ben Sanderson (Leaving Las Vegas)</answer>
+        </answer-map>
+        <correct id="1" />
+        <trivia>'As your attorney, I advise you to take a hit out of the little brown bottle in my shaving kit. You won't need much, just a tiny taste.'</trivia>
+    </question>
+</questions>
