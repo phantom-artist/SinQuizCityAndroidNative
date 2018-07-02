@@ -5,9 +5,9 @@ package com.phantomartist.sinquizcity;
  */
 public class GeneralAppException extends RuntimeException {
 
-	private static final long serialVersionUID = 1117263487465566L;
+    private static final long serialVersionUID = 1117263487465566L;
 
-	public GeneralAppException(Exception e) {
-		super(e);
-	}
+    public GeneralAppException(Exception e) {
+        super(e);
+    }
 }

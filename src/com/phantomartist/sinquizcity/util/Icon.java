@@ -69,79 +69,79 @@ public enum Icon {
         return HUH;
     }
     
-	/**
-	 * Determine which icon to display based on user's points.
-	 * 
-	 * @param points the points
-	 * @param drinks the drinks
-	 * 
-	 * @return Icon The icon ID to display.
-	 */
-	public static Icon getIcon(int points, int drinks) {
-		
-		Icon icon = HUH; // Huh? - (default icon)
-		
-		// Otherwise, do a quick calculation and figure out what to display...
-		int run = points - drinks;
-				
-		// If negative...
-		if (run < 1) {
-			
-			if (run <= -30) {
-				return ZOMBIE; // Zombie
-			}
-			
-			if (run <= -20) {
-				return ILL; // Sick
-			}
-			
-			if (run <= -15) {
-				return WASTED; // Cross-eyed
-			}
+    /**
+     * Determine which icon to display based on user's points.
+     * 
+     * @param points the points
+     * @param drinks the drinks
+     * 
+     * @return Icon The icon ID to display.
+     */
+    public static Icon getIcon(int points, int drinks) {
+        
+        Icon icon = HUH; // Huh? - (default icon)
+        
+        // Otherwise, do a quick calculation and figure out what to display...
+        int run = points - drinks;
+                
+        // If negative...
+        if (run < 1) {
+            
+            if (run <= -30) {
+                return ZOMBIE; // Zombie
+            }
+            
+            if (run <= -20) {
+                return ILL; // Sick
+            }
+            
+            if (run <= -15) {
+                return WASTED; // Cross-eyed
+            }
 
-			if (run <= -10) {
-				return DRUNK; // More drunk
-			}
-			
-			if (run <= -5) {
-				return TIPSY; // Drunk
-			}
+            if (run <= -10) {
+                return DRUNK; // More drunk
+            }
+            
+            if (run <= -5) {
+                return TIPSY; // Drunk
+            }
 
-			return HUH; // Huh?
-			
-		} else {
+            return HUH; // Huh?
+            
+        } else {
 
-			// Flawless
-			if (run == 100) {
-				return FLAWLESS; // Devil
-			}
-			
-			// Others
-			if (run >= 90) {
-				return NINJA; // Ninja
-			}
-			
-			if (run >= 75) {
-				return PIRATE; // Pirate
-			}
-					
-			if (run >= 50) {
-				return HOT; // Hot streak
-			}
-			
-			if (run >= 25) {
-				return BUSINESS; // Serious
-			}
-			
-			if (run >= 15) {
-				return WANT; // Want
-			}
-			
-			if (run >= 5) {
-				return GRIN; // Grin
-			}
-		}
-		
-		return icon;
-	}
+            // Flawless
+            if (run == 100) {
+                return FLAWLESS; // Devil
+            }
+            
+            // Others
+            if (run >= 90) {
+                return NINJA; // Ninja
+            }
+            
+            if (run >= 75) {
+                return PIRATE; // Pirate
+            }
+                    
+            if (run >= 50) {
+                return HOT; // Hot streak
+            }
+            
+            if (run >= 25) {
+                return BUSINESS; // Serious
+            }
+            
+            if (run >= 15) {
+                return WANT; // Want
+            }
+            
+            if (run >= 5) {
+                return GRIN; // Grin
+            }
+        }
+        
+        return icon;
+    }
 }
