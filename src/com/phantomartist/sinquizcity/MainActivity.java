@@ -34,9 +34,9 @@ import com.phantomartist.sinquizcity.util.UserPreferences;
  * The game logic itself is modelled by the Game and AnswerHandler classes.
  */
 public class MainActivity extends Activity {
-	
+    
     private static MainActivity main;
-	
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -65,7 +65,7 @@ public class MainActivity extends Activity {
      * @return Context The global application context. 
      */
     public static Context getAppContext() {
-    	return main.getApplicationContext();
+        return main.getApplicationContext();
     }
     
     /**
@@ -76,7 +76,7 @@ public class MainActivity extends Activity {
      * @param view The view that relates to the button. 
      */
     public void runGame(View view) {
-    	
+        
         // What action to perform? (Based on Button txt)
         Button btn = (Button) findViewById(R.id.user_btn);
         
@@ -122,52 +122,52 @@ public class MainActivity extends Activity {
      * Setup some UI options
      */
     private void setupUIOptions() {
-    	
-    	// Have we played before?
-    	boolean hasPlayedBefore = false;
-    	
-    	String userName = UserPreferences.getStringData(R.string.user_name_key, null);
-    	if (Strings.isValidString(userName)) {
-    		hasPlayedBefore = true;
-    		EditText userPrompt = (EditText)findViewById(R.id.user_prompt);
-    		userPrompt.setText(userName);
-    	}
-    	
-    	Spinner spinner = (Spinner) findViewById(R.id.vegas_visits);
-    	
-    	// Create an ArrayAdapter using the string array and a default spinner layout
-    	ArrayAdapter<CharSequence> adapter = 
-    			ArrayAdapter.createFromResource(this, R.array.vegas_visits, android.R.layout.simple_spinner_item);
-    	
-    	// Specify the layout to use when the list of choices appears
-    	adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        
+        // Have we played before?
+        boolean hasPlayedBefore = false;
+        
+        String userName = UserPreferences.getStringData(R.string.user_name_key, null);
+        if (Strings.isValidString(userName)) {
+            hasPlayedBefore = true;
+            EditText userPrompt = (EditText)findViewById(R.id.user_prompt);
+            userPrompt.setText(userName);
+        }
+        
+        Spinner spinner = (Spinner) findViewById(R.id.vegas_visits);
+        
+        // Create an ArrayAdapter using the string array and a default spinner layout
+        ArrayAdapter<CharSequence> adapter = 
+                ArrayAdapter.createFromResource(this, R.array.vegas_visits, android.R.layout.simple_spinner_item);
+        
+        // Specify the layout to use when the list of choices appears
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 
-    	// Apply the adapter to the spinner
-    	spinner.setAdapter(adapter);
+        // Apply the adapter to the spinner
+        spinner.setAdapter(adapter);
 
-    	// Are we 'revealing answers'?
-    	CheckBox reveal = (CheckBox) findViewById(R.id.chk_show_answers);
-    	reveal.setChecked(UserPreferences.getBooleanData(R.string.show_answers_key));
-    	
+        // Are we 'revealing answers'?
+        CheckBox reveal = (CheckBox) findViewById(R.id.chk_show_answers);
+        reveal.setChecked(UserPreferences.getBooleanData(R.string.show_answers_key));
+        
         // Did we just navigate back from a current game?
-    	boolean isInProgress = Game.isInProgress();
-    	
-    	if (hasPlayedBefore || isInProgress) {
-    		String visits = UserPreferences.getStringData(R.string.vegas_visits_key, "0");
-    		int position = adapter.getPosition(visits);
-    		spinner.setSelection(position, true);
+        boolean isInProgress = Game.isInProgress();
+        
+        if (hasPlayedBefore || isInProgress) {
+            String visits = UserPreferences.getStringData(R.string.vegas_visits_key, "0");
+            int position = adapter.getPosition(visits);
+            spinner.setSelection(position, true);
 
-    		Button btn = (Button) findViewById(R.id.user_btn);
-    		if (isInProgress) {
-    		    btn.setText(getString(R.string.user_btn_continue));
-    		} else {
-    		    btn.setText(getString(R.string.user_btn_return));
-    		}
-    	}
-    	
-    	if (!isInProgress) {
-    	    UserPreferences.resetScore();
-    	}
+            Button btn = (Button) findViewById(R.id.user_btn);
+            if (isInProgress) {
+                btn.setText(getString(R.string.user_btn_continue));
+            } else {
+                btn.setText(getString(R.string.user_btn_return));
+            }
+        }
+        
+        if (!isInProgress) {
+            UserPreferences.resetScore();
+        }
     }
     
     /**
@@ -177,9 +177,9 @@ public class MainActivity extends Activity {
      * @return boolean true if userName does not match existing stored user. 
      */
     private boolean isNewUser(String userName) {
-    	String existingUser = UserPreferences.getStringData(R.string.user_name_key, null);
+        String existingUser = UserPreferences.getStringData(R.string.user_name_key, null);
     
-    	return !(userName.equalsIgnoreCase(existingUser));
+        return !(userName.equalsIgnoreCase(existingUser));
     }
     
     /**
@@ -210,24 +210,24 @@ public class MainActivity extends Activity {
      * @param userName the username
      */
     private void handlePlayerInformation(String userName) {
-		
-		// Do we have a new user name?
-		if (isNewUser(userName)) {
-		    UserPreferences.resetUserPreferences();
-		}
-		
-		Spinner vegasVisits = (Spinner) findViewById(R.id.vegas_visits);
-		int numVisits = vegasVisits.getSelectedItemPosition();
-		
-		UserPreferences.saveData(R.string.user_name_key, userName);
-		UserPreferences.saveData(R.string.vegas_visits_key, String.valueOf(numVisits));
-		
-		Spannable greetingResponse = Strings.getFormattedGreetingResponse(numVisits, userName);
-		
-		TextView responseView = (TextView)findViewById(R.id.response_view);
-		responseView.setText(greetingResponse, BufferType.SPANNABLE);
-		
-		final Toast toast = Toast.makeText(this, R.string.loading_questions, Toast.LENGTH_SHORT);
-		toast.show();
-	}
+        
+        // Do we have a new user name?
+        if (isNewUser(userName)) {
+            UserPreferences.resetUserPreferences();
+        }
+        
+        Spinner vegasVisits = (Spinner) findViewById(R.id.vegas_visits);
+        int numVisits = vegasVisits.getSelectedItemPosition();
+        
+        UserPreferences.saveData(R.string.user_name_key, userName);
+        UserPreferences.saveData(R.string.vegas_visits_key, String.valueOf(numVisits));
+        
+        Spannable greetingResponse = Strings.getFormattedGreetingResponse(numVisits, userName);
+        
+        TextView responseView = (TextView)findViewById(R.id.response_view);
+        responseView.setText(greetingResponse, BufferType.SPANNABLE);
+        
+        final Toast toast = Toast.makeText(this, R.string.loading_questions, Toast.LENGTH_SHORT);
+        toast.show();
+    }
 }
